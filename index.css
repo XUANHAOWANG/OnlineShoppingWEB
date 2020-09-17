@@ -38,8 +38,11 @@ pointer-events: all;
     float: none;
 }
 #Region{
-color: rgb(207, 108, 73);
+color: rgb(197, 66, 19);
 margin-top: -2px;
+font-size: 25px;
+border: solid;
+background-color: darkorange;
 }
 .header_ul_region .header_ul_ul{
     display: none;
@@ -53,16 +56,12 @@ margin-top: -2px;
    
 }
 .header_ul_ulA li{
-  
-    float: right;
-    list-style: none;
-    margin: 0px 50px 10px -25px;
-}
-.header_ul_ulA:hover .header_ul_Home {
   color: antiquewhite;
-  
-    
+    float: right;
+    margin: 0px 50px 10px -25px;
+   
 }
+
 .yourCart{
     color: burlywood;
     background-color: rgb(184, 76, 34);
@@ -110,3 +109,23 @@ margin-top: -2px;
     transform:scale(1.2);
 
 }
+.buyNow{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(56, 223, 173);
+   border-color: darkorange;
+   border: px solid;
+   background-color: rgb(87, 160, 230); 
+  text-decoration: none;
+   
+   
+}
+.text{
+    font-size: 20px;
+    text-align: left;
+    border: 2px solid;
+    border-color: aqua;
+    margin: 404kpx;
+}
+
+
