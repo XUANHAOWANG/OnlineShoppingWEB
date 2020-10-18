@@ -1,0 +1,96 @@
+
+#body{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQc5hYVJoy5mPm4lOO5RnKvOiqBiAh1AymELw&usqp=CAU);
+    background-size:cover ;
+}
+.header{
+    background-color:rgb(228, 164, 104) ;
+    background-size: cover;
+    background-position:center ;
+    padding: 40px;
+    border: 5px solid;
+    border-color: floralwhite;
+    
+}
+.head{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 65px;
+    color: rgb(197, 50, 70);
+}
+.header_ul_ulA{
+    float: right;
+    list-style: none;
+    
+ }
+ .header_ul_ulA li{
+   color: antiquewhite;
+     float: right;
+     margin: 0px 50px 10px -25px;
+    cursor: pointer;
+ }
+ .header_ul_ulA li:hover{
+    color: brown;
+ 
+ }
+ .home{
+     cursor: pointer;
+     color: floralwhite;
+ }
+ .home:hover{
+     display: inline;
+     color: rgb(214, 47, 18);
+ }
+ 
+ .content{
+     background-color: wheat;
+ background-size:cover;
+ padding:200px;
+ border: 1ex  solid;
+ float: left;
+ font-size: 30px;
+ font-family:monospace;
+ color: rgb(197, 98, 32);
+    }
+    .bank_account, .date, .password,.security{
+        width: 40ex;
+        height: 4ex;
+        margin: 2ex;
+    }
+    .submit{
+        width: 12ex;
+        height: 30px;
+        color: rgb(226, 69, 21);
+        background-color: rgb(100, 159, 214);
+        
+    }
+    #footer {
+        background-color:rgb(235, 203, 173) ;
+    background-size: cover;
+    background-position:center ;
+    text-align: center;
+    position: fixed;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 50px;
+            z-index: 9999;
+
+       
+      }
+      .ul_botton li{
+        font-size: 25px;
+        text-align: center;
+        float: center;
+      
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 50px;
+       
+        margin: 0px 50px 10px -25px;
+        cursor: pointer;
+        color: rgb(175, 69, 37);
+        display: inline;
+    }
+    
